@@ -1,0 +1,15 @@
+﻿# --- Ultra Sites publish safety ---
+node_modules/
+.next/
+out/
+build/
+dist/
+.vercel/
+.wrangler/
+*.tsbuildinfo
+.turbo/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
