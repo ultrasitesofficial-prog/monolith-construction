@@ -1,22 +1,24 @@
-# Monolith — Atelier Construction Template
+﻿<p align="center"><img src="preview.png" alt="Monolith - Construction Template" width="100%"></p>
+
+# Monolith â€” Atelier Construction Template
 
 A cinematic, dark construction/engineering group template. The site reads as a
 set of construction documents coming to life: DIN-condensed headlines, mono
-spec readouts, and color that encodes state — **blueprint blue** for the
+spec readouts, and color that encodes state â€” **blueprint blue** for the
 unbuilt, **safety orange** for work in progress, **warm light** for the
 delivered.
 
 ## Signature moments
 
-- **S.01 The Build** — a procedural WebGL tower erects itself across a 500vh
-  scroll: blueprint ghost → structural steel → slip-form core & slabs →
-  curtain-wall glass → delivered at dusk, windows waking floor by floor. The
+- **S.01 The Build** â€” a procedural WebGL tower erects itself across a 500vh
+  scroll: blueprint ghost â†’ structural steel â†’ slip-form core & slabs â†’
+  curtain-wall glass â†’ delivered at dusk, windows waking floor by floor. The
   camera rides a crane-like dolly; the sun completes a full day cycle.
-- **S.05 The District** — the portfolio as an interactive city model. Drag to
+- **S.05 The District** â€” the portfolio as an interactive city model. Drag to
   orbit, toggle day/night, hover plots, and *enter* any building: the camera
   flies in and the project dossier slides over. Status drives the render
   (holograms / cranes / lit windows). Ambient trucks and cranes never stop.
-- **S.06 Method** — an engineering cross-section that draws itself through
+- **S.06 Method** â€” an engineering cross-section that draws itself through
   eight delivery phases while the section pins.
 - Plus: velocity-reactive discipline marquee, pinned horizontal era chronicle,
   capability study-models (one shared WebGL context, six scissored viewports),
@@ -40,7 +42,7 @@ passcode `demo`) previews brand colors live and exports overrides as JSON.
 
 ## Engineering notes
 
-- All 3D is procedural — zero model files, ~1,150 instanced meshes in the
+- All 3D is procedural â€” zero model files, ~1,150 instanced meshes in the
   hero, cached edge geometries in the district. Canvases freeze offscreen
   (`frameloop="never"`), DPR is capped, and coarse-pointer devices get a lean
   scene automatically.
@@ -49,10 +51,11 @@ passcode `demo`) previews brand colors live and exports overrides as JSON.
 - Lenis is driven by the GSAP ticker so ScrollTrigger and scroll position
   never disagree by a frame. Import GSAP only via `src/lib/gsap.ts`.
 - The RFP form composes a structured brief into WhatsApp (with mailto
-  fallback) — no backend required.
+  fallback) â€” no backend required.
 
 ## Run
 
 ```bash
 npm run dev --workspace @atelier/construction   # port 3005
 ```
+
