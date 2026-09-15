@@ -1,6 +1,6 @@
 ﻿<p align="center"><img src="preview.png" alt="Monolith - Construction Template" width="100%"></p>
 
-# Monolith â€” Atelier Construction Template
+#  Construction Site Template
 
 A cinematic, dark construction/engineering group template. The site reads as a
 set of construction documents coming to life: DIN-condensed headlines, mono
